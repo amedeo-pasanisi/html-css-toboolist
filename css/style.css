@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -12,15 +12,18 @@ body{
 /* header con titolo e logo */
 header{
     height: 10%;
+    line-height: 50px;
     padding: 20px 0 0 20px;
 }
 
 img{
-    display: inline-block;
+    height: 60px;
+    vertical-align: middle;
 }
 
 h1{
     display: inline-block;
+    vertical-align:middle;
 }
 /* fine header con titolo e logo */
 
@@ -42,36 +45,45 @@ main{
     background-color: white;
     border-bottom: solid rgba(245, 245, 245, 0.979) 3px;
     border-radius: 10px 10px 0 0;
-    padding: 15px 0 0 50px;
+    padding: 20px 0 0 50px;
 }
 
 .add-task{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 30px;
     width: 80px;
     background-color: rgb(64, 165, 224);
     border-radius: 5px;
+    border: solid rgb(64, 165, 224) 2px;
 
+    line-height: 30px;
+    vertical-align:middle;
+    text-align: center;
 }
 
 .add-section{
     display: inline-block;
     color: lightgray;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 30px;
     width: 100px;
     border-radius: 5px;
     border: solid lightgray 2px;
+
+    line-height: 30px;
+    vertical-align:middle;
+    text-align: center;
 }
 /* finespazio dedicato ai bottoni */
 
 /* spazio dedicato alle sezioni e ai task creati */
 .sezione-sezioni{
-    height: 95%;
+    height: 80%;
     background-color: white;
     padding: 30px 0 0 50px;
+    color: rgb(87, 87, 87);
 }
 
 .sezione{
@@ -79,7 +91,8 @@ main{
 }
 
 .task{
-    margin: 10px 0;
+    margin: 20px 0;
+    line-height: 10px;
 }
 
 .tick{
@@ -92,8 +105,8 @@ main{
 
 .cross{
     display: inline-block;
-    color: red;
-    border: solid red 2px;
+    color: rgb(230, 81, 81);
+    border: solid rgb(230, 81, 81) 2px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -106,60 +119,78 @@ main{
 .tag-editorial{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 20px;
     width: 70px;
     background-color: rgb(64, 165, 224);
     border-radius: 9px;
+
+    vertical-align:middle;
+    text-align: center;
 }
 
 .tag-q1goals{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 20px;
     width: 70px;
     background-color: rgb(152, 64, 224);
     border-radius: 9px;
+
+    vertical-align:middle;
+    text-align: center;
 }
 
 .tag-recruiting{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 20px;
     width: 70px;
     background-color: rgb(43, 153, 135);
     border-radius: 9px;
+
+    vertical-align:middle;
+    text-align: center;
 }
 
 .tag-mobile{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 20px;
     width: 70px;
     background-color: rgb(243, 166, 50);
     border-radius: 9px;
+
+    vertical-align:middle;
+    text-align: center;
 }
 
 .tag-website{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 20px;
     width: 70px;
     background-color: rgb(224, 64, 184);
     border-radius: 9px;
+
+    vertical-align:middle;
+    text-align: center;
 }
 
 .tag-sales{
     display: inline-block;
     color: white;
-    font-size: 14px;
-    height: 25px;
+    font-size: 12px;
+    height: 20px;
     width: 70px;
     background-color: rgb(64, 224, 72);
     border-radius: 9px;
+
+    vertical-align:middle;
+    text-align: center;
 }
 /* fine spazio dedicato alle sezioni e ai task creati */
