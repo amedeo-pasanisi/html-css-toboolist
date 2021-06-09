@@ -15,4 +15,23 @@ header{
 main{
     height: 90%;
     background-color: rgba(245, 245, 245, 0.979);
+    padding-top: 50px;
+}
+
+.container{
+    height: 90%;
+    width: 80%;
+    margin: auto;
+}
+
+.sezione-bottoni{
+    height: 10%;
+    background-color: white;
+    border-bottom: solid rgba(245, 245, 245, 0.979) 3px;
+    border-radius: 10px 10px 0 0;
+}
+
+.sezione-informazioni{
+    height: 90%;
+    background-color: white;
 }
