@@ -31,7 +31,26 @@ main{
     border-radius: 10px 10px 0 0;
 }
 
+.add-task{
+    color: white;
+    font-size: 14px;
+    height: 25px;
+    width: 80px;
+    background-color: rgb(64, 165, 224);
+    border-radius: 5px;
+}
+
+.add-section{
+    color: lightgray;
+    font-size: 14px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid lightgray 2px;
+}
+
 .sezione-informazioni{
     height: 90%;
     background-color: white;
 }
+
